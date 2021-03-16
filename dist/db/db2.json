@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "user": "alex",
+      "age": 20,
+      "disabled": true
+    },
+    {
+      "user": "serj",
+      "age": 14,
+      "disabled": false
+    },
+    {
+      "user": "nick",
+      "age": 25,
+      "disabled": true
+    },
+    {
+      "user": "omar",
+      "age": 7,
+      "disabled": false
+    },
+    {
+      "user": "eshli",
+      "age": 13,
+      "disabled": true
+    }
+  ],
+  "condition": {
+    "include": [
+      {
+        "disabled": true
+      }
+    ],
+    "sort_by": [
+      "age"
+    ]
+  }
+}

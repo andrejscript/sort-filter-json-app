@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "user": "mike@mail.com",
+      "rating": 20,
+      "enabled": false
+    },
+    {
+      "user": "greg@mail.com",
+      "rating": 14,
+      "enabled": true
+    },
+    {
+      "user": "john@mail.com",
+      "rating": 25,
+      "enabled": false
+    },
+    {
+      "user": "fill@mail.com",
+      "rating": 33,
+      "enabled": true
+    }
+  ],
+  "condition": {
+    "exclude": [
+      {
+        "enabled": false
+      }
+    ],
+    "sort_by": [
+      "rating"
+    ]
+  }
+}
